@@ -24,7 +24,7 @@ O objetivo principal deste estudo é investigar a aplicação de algoritmos gen�
 
 Para o estudo atual, o problema foi enunciado da seguinte maneira
 
-    Você fará uma viagem a um acampamento durante o final de semana e precisa decidir quais itens levar. Como você só dispõe de uma mochila com capacidade para 15 kg, decidiu incluir somente os itens que maximizem a soma do valor em R$ dos itens, sem ultrapassar o limite de peso
+> Você fará uma viagem a um acampamento durante o final de semana e precisa decidir quais itens levar. Como você só dispõe de uma mochila com capacidade para 15 kg, decidiu incluir somente os itens que maximizem a soma do valor em R$ dos itens, sem ultrapassar o limite de peso
 
 Itens possíveis na mochila
 
