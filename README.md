@@ -171,7 +171,7 @@ Tempo de execução (evolução somente): 200.4658 segundos
 
 ### Implementação da solução alternativa
 
-Os parâmetros encontrados na busca Rodada 1 foram utilizados num código identico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
+Os parâmetros encontrados na busca **Rodada 1** foram utilizados num código identico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
 
 Com o seguinte indivíduo encontrado:
 
@@ -197,7 +197,7 @@ Valor total: R$870.00<br/>
 Peso total: 14.90kg<br/>
 Tempo de execução (evolução somente): 0.0477 segundos
 
-Os parâmetros encontrados na busca Rodada 2 foram utilizados num código identico ao da solução original.
+Os parâmetros encontrados na busca **Rodada 2** foram utilizados num código identico ao da solução original.
 
 Com o seguinte indivíduo encontrado:
 
