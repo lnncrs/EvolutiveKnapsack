@@ -83,7 +83,7 @@ Um primeiro contato com o framework foi feito para solucionar um problema mais s
 
 #### Lista de itens
 
-A lista de itens possiveis foi modelada contendo ID (ordem do item na lista original), Nome do item, Valor (R$), Peso (kg).
+A lista de itens possíveis foi modelada contendo ID (ordem do item na lista original), Nome do item, Valor (R$), Peso (kg).
 
 #### Cromossomos
 
@@ -171,7 +171,7 @@ Tempo de execução (evolução somente): 200.4658 segundos
 
 ### Implementação da solução alternativa
 
-Os parâmetros encontrados na busca **Rodada 1** foram utilizados num código identico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
+Os parâmetros encontrados na busca **Rodada 1** foram utilizados num código idêntico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
 
 Com o seguinte indivíduo encontrado:
 
@@ -197,7 +197,7 @@ Valor total: R$870.00<br/>
 Peso total: 14.90kg<br/>
 Tempo de execução (evolução somente): 0.0477 segundos
 
-Os parâmetros encontrados na busca **Rodada 2** foram utilizados num código identico ao da solução original.
+Os parâmetros encontrados na busca **Rodada 2** foram utilizados num código idêntico ao da solução original.
 
 Com o seguinte indivíduo encontrado:
 
@@ -227,15 +227,15 @@ Tempo de execução (evolução somente): 0.0511 segundos
 
 ## Discussão
 
-A primeira solução com os valores iniciais de disparo encontrou um indivíduo com características e lista de itens idênticas ao do individuo encontrado pela busca de parâmetros, **Valor total: R$870.00 / Peso total: 14.90kg**.
+A primeira solução com os valores iniciais de disparo encontrou um indivíduo com características e lista de itens idênticas ao do indivíduo encontrado pela busca de parâmetros, **Valor total: R$870.00 / Peso total: 14.90kg**.
 
 A diferença ficou pelo tempo de busca, na solução inicial foram **0.2194 segundos** e na solução alternativa encontrada por busca foram **0.0477 segundos**, mas é importante notar que o tempo de busca por parâmetros ótimos em si foi de **207.2722 segundos** o que não justifica a sua utilização, mas reforça que parâmetros ponderados de disparo podem ser capazes de gerar resultados ótimos neste tipo de algoritmo.
 
-A busca de parâmetros parece ter encontrado um caminho de convergência ótimo, pois a solução ótima em si foi encontrada já com parâmetros iniciais mais abrangentes.
+A busca de parâmetros parece ter encontrado um caminho de convergência ótimo num tempo inferior, pois a solução ótima em si foi encontrada já com parâmetros iniciais mais abrangentes.
 
 Mais testes são necessários para sacramentar que técnicas semelhantes ao GridSearch bem caras computacionalmente e bem comum em determinados algoritmos de aprendizado são desnecessárias aqui.
 
-## Anexo 1: Como gerar o ambiente para reproduzir os experimentos
+## Anexo 1 - Como gerar o ambiente para reproduzir os experimentos
 
 Vamos mostrar a seguir um exemplo de como criar o ambiente necessário usando o gerenciador de ambientes e pacotes Anaconda como base com o arquivo environments.yml neste repositório.
 
