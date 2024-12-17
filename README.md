@@ -153,15 +153,25 @@ Este mecanismo de busca por melhores parâmetros utilizou as seguintes variaçõ
 
 E encontrou os seguintes parâmetros
 
+Rodada 1
+
 ```text
 Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.2, 'tournament_size': 10, 'select_method': 'selTournament'}
 ```
 
 Tempo de execução (evolução somente): 207.2722 segundos
 
+Rodada 2
+
+```text
+Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.1, 'tournament_size': 2, 'select_method': 'selTournament'}
+```
+
+Tempo de execução (evolução somente): 200.4658 segundos
+
 ### Implementação da solução alternativa
 
-Os parâmetros encontrados na busca foram utilizados num código identico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
+Os parâmetros encontrados na busca Rodada 1 foram utilizados num código identico ao da solução original, o código está no **Anexo 5** e corresponde ao notebook [KnapSackGridBest](notebooks/KnapSackGridBest.ipynb).
 
 Com o seguinte indivíduo encontrado:
 
@@ -182,11 +192,38 @@ Com o seguinte indivíduo encontrado:
 | Prato, talheres e caneca          | 20.0       | 0.5       |
 | Roupas (conjunto)                 | 80.0       | 1.5       |
 | Calçados (botas)                  | 120.0      | 2.0       |
-| Kit de higiene pessoal            | 30.0       | 0.5       |
 
 Valor total: R$870.00<br/>
 Peso total: 14.90kg<br/>
 Tempo de execução (evolução somente): 0.0477 segundos
+
+Os parâmetros encontrados na busca Rodada 2 foram utilizados num código identico ao da solução original.
+
+Com o seguinte indivíduo encontrado:
+
+| Nome do item                     | Valor (R$) | Peso (kg) |
+|-----------------------------------|------------|-----------|
+| Barraca                           | 150.0      | 3.5       |
+| Saco de dormir                    | 100.0      | 2.0       |
+| Isolante térmico                  | 50.0       | 0.5       |
+| Colchão inflável                  | 80.0       | 1.0       |
+| Lanterna                          | 30.0       | 0.2       |
+| Repelente de insetos              | 15.0       | 0.1       |
+| Protetor solar                    | 20.0       | 0.2       |
+| Canivete                          | 10.0       | 0.1       |
+| Mapa e bússola                    | 25.0       | 0.3       |
+| Filtro de água                    | 50.0       | 0.5       |
+| Fogão de camping                  | 70.0       | 1.5       |
+| Prato, talheres e caneca          | 20.0       | 0.5       |
+| Roupas (conjunto)                 | 80.0       | 1.5       |
+| Calçados (botas)                  | 120.0      | 2.0       |
+| Toalha                            | 20.0       | 0.5       |
+| Kit de higiene pessoal            | 30.0       | 0.5       |
+
+
+Valor total: R$870.00<br/>
+Peso total: 14.90kg<br/>
+Tempo de execução (evolução somente): 0.0511 segundos
 
 ## Discussão
 
