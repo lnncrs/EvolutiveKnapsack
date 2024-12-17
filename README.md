@@ -155,17 +155,13 @@ E encontrou os seguintes parâmetros
 
 Rodada 1
 
-```text
-Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.2, 'tournament_size': 10, 'select_method': 'selTournament'}
-```
+> Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.2, 'tournament_size': 10, 'select_method': 'selTournament'}
 
 Tempo de execução (evolução somente): 207.2722 segundos
 
 Rodada 2
 
-```text
-Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.1, 'tournament_size': 2, 'select_method': 'selTournament'}
-```
+> Melhores parâmetros encontrados: {'population_size': 50, 'num_generations': 50, 'crossover_probability': 0.5, 'mutation_probability': 0.1, 'tournament_size': 2, 'select_method': 'selTournament'}
 
 Tempo de execução (evolução somente): 200.4658 segundos
 
