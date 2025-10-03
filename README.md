@@ -14,7 +14,7 @@ lenin.cristi@aluno.ufabc.edu.br
 
 **Resumo. Experimento de resolução do problema da mochila usando algoritmos genéticos**
 
-**Abstract. Experiment of Solving the Knapsack Problem Using Genetic Algorithms**
+**Abstract. Experiment on Solving the Knapsack Problem Using Genetic Algorithms**
 
 ## Objetivos
 
